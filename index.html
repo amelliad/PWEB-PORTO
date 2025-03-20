@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Amelia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-nav">
+          <img src="gambar/logoADEENwhite.svg" alt="ADEEN Logo" />
+        </div>
+        <!-- <div class="hamburger" id="hamburger">&#9776;</div> -->
+        <ul class="nav-menu">
+          <li class="list-nav-menu">
+            <a href="#about">ABOUT ME</a>
+          </li>
+          <li class="list-nav-menu"><a href="#skills">SKILLS</a></li>
+          <li class="list-nav-menu"><a href="#why-me">WHY ME</a></li>
+          <li class="list-nav-menu">
+            <a href="#reviews">REVIEWS</a>
+          </li>
+          <li class="list-nav-menu">
+            <a href="#projects">PROJECTS</a>
+          </li>
+        </ul>
+        <a href="#connect" class="contact-button list-nav-menu">
+          CONTACT
+          <img src="gambar/call.svg" alt="Phone Icon" class="phone-icon" />
+        </a>
+      </nav>
+    </header>
+
+    <!-- <script src="script.js"></script> -->
+
+    <!-- Home -->
+    <section id="home">
+      <p class="home-tittle-shadow">
+               <span class="htittle-white">I’m</span
+          ><span class="htittle-white">&nbsp;</span
+          ><span class="htittle-yellow">Amellia Dwi Ningsih<br /></span
+          ><span class="htittle-white">Web Developer</span>
+        </p>
+      </p>
+      <img src="gambar/akuhome.svg" alt="Amellia Dwi Ningsih" />
+      <a href="#projects" class="button">MY PROJECT →</a>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+      <div class="about-container">
+        <h2 class="tittle-nav-menu">ABOUT ME</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <div class="text-container">              
+            <p class="descriptme">
+              I’m Amellia Dwi Ningsih, a 4th-semester Computer Science student
+              at Universitas Siliwangi. I have a basic understanding of
+              programming and <br> I am always looking to improve my skills. I value
+              good communication <br> and strive to be responsible and dedicated in
+              everything I do.<br> I’m still learning, but I’m excited about the
+              journey ahead.<br> Thank you for visiting my portfolio!
+            </p>
+            </div>
+            <a href="#projects" class="button">MY PROJECT →</a>
+          </div class="about-image">
+          <img src="gambar/akuaboutme.png" alt="Amellia Dwi Ningsih" />
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Skills -->
+    <br>
+    <br>
+    <br>
+    <section id="skills">
+      <div class="frame-skill-container">
+        <h2 class="tittle-nav-menu">MY SKILL</h2>
+        <div class="skills-container">
+          <div class="skill-icon"><img src="gambar/Group c.svg" alt="C" /></div>
+          <div class="skill-icon"><img src="gambar/Group html.svg" alt="HTML" /></div>
+          <div class="skill-icon"><img src="gambar/Group css.svg" alt="CSS" /></div>
+          <div class="skill-icon"><img src="gambar/Group sql.svg" alt="MySQL" /></div>
+          <div class="skill-icon"><img src="gambar/Group py.svg" alt="Python" /></div>
+          <div class="skill-icon"><img src="gambar/Group fig.svg" alt="Figma" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Me -->
+    <section id="why-me">
+      <h2 class="tittle-nav-menu">WHY CHOOSE ME?</h2>
+      <p class="descript-skill">
+        As a dedicated Computer Science student, I bring a fresh perspective and
+        a s trong willingness to learn. My solid foundation in programming and
+        web development, combined with effective communication skills, allows me
+        to collaborate well with others and understand client needs. I am
+        responsible, detail-oriented, and committed to delivering quali ty work.
+        While I may still be honing my skills, my passion for technology and
+        eagerness to grow make me a reliable choice for projects. I am excited
+        to contribute my creativity and enthusiasm to bring your ideas to life!
+      </p>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews">
+      <h2 class="tittle-nav-menu">WHAT MY CLIENT SAY ABOUT ME?</h2>
+      <div class="reviews-container">
+        <div class="review">
+          <div class="testimonials">
+            <div class="testimonial">
+              <div class="info-container">
+                <img src="gambar/alifa.png" alt="Alifa Gustia Rahmi" />
+                <div class="info">
+                  <h4>Alifa Gustia Rahmi</h4>
+                  <p>Owner Gusya Academy</p>
+                </div>
+              </div>
+              <p class="quote">“Working with Amellia was a breath of fresh air! Her enthusiasm and dedication to learning truly stand out. Even as a student, she approached every task with professionalism and creativity. I look forward to seeing her grow in the tech industry!”</p>
+            </div>
+          
+            <div class="testimonial">
+              <div class="info-container">
+              <img src="gambar/aura.png" alt="Aura Alima Thufailah" />
+              <div class="info">
+                <h4>Aura Alima Thufailah</h4>
+                <p>Owner Lima Shop</p>
+              </div>
+              </div>
+              <p class="quote">“Amazing”</p>
+            </div>
+          
+            <div class="testimonial">
+               <div class="info-container">
+              <img src="gambar/hilma.png" alt="Hilma Amalia Putri" />
+              <div class="info">
+                <h4>Hilma Amalia Putri</h4>
+                <p>CEO mantap.com</p>
+              </div>
+              </div>
+              <p class="quote">“So Cool”</p>
+              </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </section>      
+
+        
+    <!-- Project -->
+    <section id="projects">
+      <div class="project-frame-container">
+        <div class="project-tittle">PROJECT</div>
+
+        <div class="project-container">
+          <!-- Tombol panah kiri -->
+          <button class="prev" onclick="prevSlide()">
+            <img src="gambar/arrow left.svg" alt="Previous" />
+          </button>
+
+          <!-- Project Slider -->
+          <div class="project-slider">
+            <div class="project-wrapper">
+              <div class="project-card">
+                <img src="gambar/detcomplex1.png" alt="Project 1" />
+                <p class="project-description">
+                  Aplikasi kalkulator untuk menghitung determinan dan bilangan
+                  kompleks secara otomatis.
+                </p>
+                <button class="button">DetComplex</button>
+              </div>
+              <div class="project-card">
+                <img src="gambar/namboot1.png" alt="Project 2" />
+                <p class="project-description">Deskripsi proyek kedua.</p>
+                <button class="button">Lihat Detail</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tombol panah kanan -->
+
+          <button class="next" onclick="nextSlide()">
+            <img src="gambar/arrow right.svg" alt="Next" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connect -->
+     <br><br><br><br> <br><br><br><br>
+    <section id="connect">
+      <div class="container-lets">
+      <div class="lets-tittle">Let's Connect!</div>
+      <div class="connect-buttons-container">
+        <a href="#" class="button">Instagram</a>
+        <a href="#" class="button">WhatsApp</a>
+      </div>
+      </div>
+    </section>
+ 
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="faq-container">
+      <h2 class="faq-title">Need Help?</h2>
+      <form class="faq-form">
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email" required />      
+          <label for="message">MESSAGE</label>
+          <div class="message-container">
+        <textarea id="message" name="message" placeholder="Enter Message" required></textarea>
+
+        <button type="submit" class="button">Send</button>
+        </div>
+      </form>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-col">
+          <div class="logo">
+            <img src="gambar/logoADEENblue.svg" alt="ADEEN Logo" />
+          </div>
+          <div class="social-icons">
+            <img class="soc-logo" src="gambar/instagram.svg" alt="Instagram" />
+            <img class="soc-logo" src="gambar/whatsapp.svg" alt="WhatsApp" />
+          </div>
+          <p>&copy; 2025. All rights reserved.</p>
+        </div>
+        <div class="frame-nav-footbar">
+          <div class="footer-col">
+            <div class="tittle-footer-menu">ADEEN</div>
+            <div>Amellia Dwi Ningsih</div>
+            <div>+62 89514866318</div>
+            <div>Taskimalaya</div>
+          </div>
+          <div class="footer-col">
+            <div class="tittle-footer-menu">Connect</div>
+            <a href="#">Instagram</a>
+            <a href="#">WhatsApp</a>
+            <a href="#faq">Need Help?</a>
+          </div>
+          <div class="footer-col">
+            <div class="tittle-footer-menu">Navigation</div>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">My Skill</a>
+            <a href="#why-me">Why Me</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#connect">Connect</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
