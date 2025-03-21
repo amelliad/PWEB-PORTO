@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id"> 
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +9,10 @@
   <body>
     <header>
       <nav>
+        <button class="menu-toggle" aria-label="Toggle Menu">
+          &#9776;
+          <!-- Simbol hamburger -->
+        </button>
         <div class="logo-nav">
           <img src="gambar/logoADEENwhite.svg" alt="ADEEN Logo" />
         </div>
@@ -29,6 +33,9 @@
           CONTACT
           <img src="gambar/call.svg" alt="Phone Icon" class="phone-icon" />
         </a>
+        <a href="#connect" class="phone-toggle">
+          <img src="gambar/call.svg" alt="Phone Icon" class="phone-icon" />
+        </a>
       </nav>
     </header>
 
@@ -37,11 +44,10 @@
     <!-- Home -->
     <section id="home">
       <p class="home-tittle-shadow">
-               <span class="htittle-white">I’m</span
-          ><span class="htittle-white">&nbsp;</span
-          ><span class="htittle-yellow">Amellia Dwi Ningsih<br /></span
-          ><span class="htittle-white">Web Developer</span>
-        </p>
+        <span class="htittle-white">I’m</span
+        ><span class="htittle-white">&nbsp;</span
+        ><span class="htittle-yellow">Amellia Dwi Ningsih<br /></span
+        ><span class="htittle-white">Web Developer</span>
       </p>
       <img src="gambar/akuhome.svg" alt="Amellia Dwi Ningsih" />
       <a href="#projects" class="button">MY PROJECT →</a>
@@ -53,28 +59,26 @@
         <h2 class="tittle-nav-menu">ABOUT ME</h2>
         <div class="about-content">
           <div class="about-text">
-            <div class="text-container">              
             <p class="descriptme">
               I’m Amellia Dwi Ningsih, a 4th-semester Computer Science student
               at Universitas Siliwangi. I have a basic understanding of
-              programming and <br> I am always looking to improve my skills. I value
-              good communication <br> and strive to be responsible and dedicated in
-              everything I do.<br> I’m still learning, but I’m excited about the
-              journey ahead.<br> Thank you for visiting my portfolio!
+              programming and am always looking to improve my skills. I value
+              good communication and strive to be responsible and dedicated in
+              everything I do. I’m still learning, but I’m excited about the
+              journey ahead. Thank you for visiting my portfolio!
             </p>
-            </div>
             <a href="#projects" class="button">MY PROJECT →</a>
-          </div class="about-image">
+          </div>
+          <div class="about-image">
           <img src="gambar/akuaboutme.png" alt="Amellia Dwi Ningsih" />
         </div>
       </div>
     </section>
 
-
     <!-- Skills -->
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
     <section id="skills">
       <div class="frame-skill-container">
         <h2 class="tittle-nav-menu">MY SKILL</h2>
@@ -118,37 +122,41 @@
                   <p>Owner Gusya Academy</p>
                 </div>
               </div>
-              <p class="quote">“Working with Amellia was a breath of fresh air! Her enthusiasm and dedication to learning truly stand out. Even as a student, she approached every task with professionalism and creativity. I look forward to seeing her grow in the tech industry!”</p>
+              <p class="quote">
+                “Working with Amellia was a breath of fresh air! Her enthusiasm
+                and dedication to learning truly stand out. Even as a student,
+                she approached every task with professionalism and creativity. I
+                look forward to seeing her grow in the tech industry!”
+              </p>
             </div>
-          
+
             <div class="testimonial">
               <div class="info-container">
-              <img src="gambar/aura.png" alt="Aura Alima Thufailah" />
-              <div class="info">
-                <h4>Aura Alima Thufailah</h4>
-                <p>Owner Lima Shop</p>
-              </div>
+                <img src="gambar/aura.png" alt="Aura Alima Thufailah" />
+                <div class="info">
+                  <h4>Aura Alima Thufailah</h4>
+                  <p>Owner Lima Shop</p>
+                </div>
               </div>
               <p class="quote">“Amazing”</p>
             </div>
-          
+
             <div class="testimonial">
-               <div class="info-container">
-              <img src="gambar/hilma.png" alt="Hilma Amalia Putri" />
-              <div class="info">
-                <h4>Hilma Amalia Putri</h4>
-                <p>CEO mantap.com</p>
-              </div>
+              <div class="info-container">
+                <img src="gambar/hilma.png" alt="Hilma Amalia Putri" />
+                <div class="info">
+                  <h4>Hilma Amalia Putri</h4>
+                  <p>CEO mantap.com</p>
+                </div>
               </div>
               <p class="quote">“So Cool”</p>
-              </div>
+            </div>
           </div>
-          <br>
+          <br />
         </div>
       </div>
-    </section>      
+    </section>
 
-        
     <!-- Project -->
     <section id="projects">
       <div class="project-frame-container">
@@ -189,32 +197,42 @@
     </section>
 
     <!-- Connect -->
-     <br><br><br><br> <br><br><br><br>
+    <br /><br /><br /><br />
+    <br /><br /><br /><br />
     <section id="connect">
       <div class="container-lets">
-      <div class="lets-tittle">Let's Connect!</div>
-      <div class="connect-buttons-container">
-        <a href="#" class="button">Instagram</a>
-        <a href="#" class="button">WhatsApp</a>
-      </div>
+        <div class="lets-tittle">Let's Connect!</div>
+        <div class="connect-buttons-container">
+          <a href="#" class="button">Instagram</a>
+          <a href="#" class="button">WhatsApp</a>
+        </div>
       </div>
     </section>
- 
 
     <!-- FAQ -->
     <section id="faq">
       <div class="faq-container">
-      <h2 class="faq-title">Need Help?</h2>
-      <form class="faq-form">
-        <label for="email">EMAIL</label>
-        <input type="email" id="email" name="email" placeholder="Enter Email" required />      
+        <h2 class="faq-title">Need Help?</h2>
+        <div class="faq-frame">
+        <form class="faq-form">
+          <label for="email">EMAIL</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Email"
+            required
+          />
           <label for="message">MESSAGE</label>
-          <div class="message-container">
-        <textarea id="message" name="message" placeholder="Enter Message" required></textarea>
-
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Enter Message"
+              required
+            ></textarea>
+        </form>
         <button type="submit" class="button">Send</button>
-        </div>
-      </form>
+    </div>  
     </div>
     </section>
 
