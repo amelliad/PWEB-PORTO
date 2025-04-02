@@ -4,30 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio Amelia</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   </head>
   <body>
     <header>
       <nav>
-        <button class="menu-toggle" aria-label="Toggle Menu">
+        <button class="menu-toggle" id="nav-toggle"aria-label="Toggle Menu">
           &#9776;
           <!-- Simbol hamburger -->
         </button>
         <div class="logo-nav">
           <img src="gambar/logoADEENwhite.svg" alt="ADEEN Logo" />
         </div>
-        <ul class="nav-menu">
-          <li class="list-nav-menu">
-            <a href="#about">ABOUT ME</a>
-          </li>
-          <li class="list-nav-menu"><a href="#skills">SKILLS</a></li>
-          <li class="list-nav-menu"><a href="#why-me">WHY ME</a></li>
-          <li class="list-nav-menu">
-            <a href="#reviews">REVIEWS</a>
-          </li>
-          <li class="list-nav-menu">
-            <a href="#projects">PROJECTS</a>
-          </li>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="list-nav-menu"><a href="#about" class="nav_link">ABOUT ME</a></li>
+          <li class="list-nav-menu"><a href="#skills" class="nav_link">SKILLS</a></li>
+          <li class="list-nav-menu"><a href="#why-me" class="nav_link">WHY ME</a></li>
+          <li class="list-nav-menu"><a href="#reviews" class="nav_link">REVIEWS</a></li>
+          <li class="list-nav-menu"><a href="#projects" class="nav_link">PROJECTS</a></li>
         </ul>
         <a href="#connect" class="contact-button list-nav-menu">
           CONTACT
@@ -38,8 +33,6 @@
         </a>
       </nav>
     </header>
-
-    <!-- <script src="script.js"></script> -->
 
     <!-- Home -->
     <section id="home">
@@ -181,7 +174,11 @@
               </div>
               <div class="project-card">
                 <img src="gambar/namboot1.png" alt="Project 2" />
-                <p class="project-description">Deskripsi proyek kedua.</p>
+                <p class="project-description">Aplikasi Rental motor
+                  online dengan penitik
+                  beratan pada
+                  pengintegrasian data
+                  base aplikasi/ website</p>
                 <button class="button">Lihat Detail</button>
               </div>
             </div>
@@ -195,6 +192,7 @@
         </div>
       </div>
     </section>
+
 
     <!-- Connect -->
     <br /><br /><br /><br />
@@ -274,5 +272,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
