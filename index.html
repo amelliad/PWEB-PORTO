@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio Amelia</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   </head>
   <body>
     <header>
       <nav>
-        <button class="menu-toggle" id="nav-toggle"aria-label="Toggle Menu">
+        <button class="menu-toggle" id="nav-toggle" aria-label="Toggle Menu">
           &#9776;
           <!-- Simbol hamburger -->
         </button>
@@ -43,7 +44,7 @@
       </p>
       <img src="gambar/akuhome.svg" alt="Amellia Dwi Ningsih" />
       <a href="#projects" class="button">MY PROJECT →</a>
-    </section>
+    </section> 
 
     <!-- about -->
     <section id="about">
@@ -73,7 +74,7 @@
     <br />
     <section id="skills">
       <div class="frame-skill-container">
-        <h2 class="tittle-nav-menu">MY SKILL</h2>
+        <h2 class="tittle-nav-menu">MY SKILLS</h2>
         <div class="skills-container">
           <div class="skill-icon"><img src="gambar/c.svg" alt="C" /></div>
           <div class="skill-icon"><img src="gambar/html.svg" alt="HTML" /></div>
@@ -90,7 +91,7 @@
       <h2 class="tittle-nav-menu">WHY CHOOSE ME?</h2>
       <p class="descript-skill">
         As a dedicated Computer Science student, I bring a fresh perspective and
-        a s trong willingness to learn. My solid foundation in programming and
+        a strong willingness to learn. My solid foundation in programming and
         web development, combined with effective communication skills, allows me
         to collaborate well with others and understand client needs. I am
         responsible, detail-oriented, and committed to delivering quali ty work.
@@ -178,7 +179,7 @@
                   beratan pada
                   pengintegrasian data
                   base aplikasi/ website</p>
-                <button class="button">NamBoot</button>
+                <button class="button">Lihat Detail</button>
               </div>
             </div>
           </div>
@@ -212,6 +213,23 @@
         <h2 class="faq-title">Need Help?</h2>
         <div class="faq-frame">
         <form class="faq-form">
+          <label for="name">NAME</label>
+          <input            
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter Name"
+          required/>
+
+          <label for="phone">PHONE</label>
+          <input            
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter Phone Number"
+          required/>
+
+
           <label for="email">EMAIL</label>
           <input
             type="email"
@@ -227,8 +245,8 @@
               placeholder="Enter Message"
               required
             ></textarea>
-        </form>
         <button type="submit" class="button">Send</button>
+        </form>
     </div>  
     </div>
     </section>
@@ -272,6 +290,8 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
